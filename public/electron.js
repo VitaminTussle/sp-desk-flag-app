@@ -6,6 +6,8 @@ const isDev = require('electron-is-dev');
 function createWindow() {
   // Create the browser window.
   const win = new BrowserWindow({
+    icon: __dirname + '/favicon.ico',
+    title: 'SPFlags',
     width: 800,
     height: 600,
     webPreferences: {

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SPFlags",
+  "name": "SupplyPike Desk Flag Configurer",
   "icons": [
     {
       "src": "favicon.ico",
