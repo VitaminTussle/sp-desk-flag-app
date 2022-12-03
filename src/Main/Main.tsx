@@ -1,10 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Sidebar from '../Sidebar/Sidebar';
 
-function Main() {
+const Main = () => {
+  const [selectedTab, setSelectedTab] = useState('Solid');
+
   return (
-    <div className="flex bg-blue-700">
-      Hello there
+    <div className="flex flex-row h-screen">
+      <Sidebar onSelect={setSelectedTab} selected={selectedTab} />
     </div>
   );
 }
