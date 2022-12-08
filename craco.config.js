@@ -8,6 +8,9 @@ module.exports = {
                     "os": require.resolve("os-browserify"),
                     "fs": false
                 }
+            },
+            externals: {
+                "node-hid": "commonjs node-hid"
             }
         }
     }
